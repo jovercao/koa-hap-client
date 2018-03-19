@@ -12,9 +12,11 @@ const path = require("path");
 const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: {
+    hap: "./src/index.js"
+  },
   output: {
-    filename: "hap.js",
+    filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
     //sourceMapFilename: 'hap.map',
     library: "hap",
