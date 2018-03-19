@@ -1,0 +1,39 @@
+{
+  "name": "koa-hap-client",
+  "version": "0.1.3",
+  "description": "the koa-hap client js for borwser and node.js side\u001b[D\u001b[D\u001b[D\u001b[Dserver-\u001b[2~side.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovercao/koa-hap-client.git"
+  },
+  "keywords": [
+    "koa",
+    "hap",
+    "ajax",
+    "REST",
+    "api",
+    "service"
+  ],
+  "author": "jover",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jovercao/koa-hap-client/issues"
+  },
+  "homepage": "https://github.com/jovercao/koa-hap-client#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
