@@ -1,6 +1,6 @@
 {
   "name": "koa-hap-client",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "the koa-hap client js for borwser and node.js side\u001b[D\u001b[D\u001b[D\u001b[Dserver-\u001b[2~side.",
   "main": "./src/index.js",
   "scripts": {

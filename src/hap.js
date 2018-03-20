@@ -22,9 +22,10 @@ const createInstance = function(baseUrl, options) {
   );
 
   const createCall = function(url) {
-    const call = function call(args = {}) {
+    const call = async function call(args = {}) {
       console.log('POST', url, args);
-      return http.post(url, args);
+      const res = (await http.post(url, args));
+      return res.data;
     };
 
     return new Proxy(call, {
